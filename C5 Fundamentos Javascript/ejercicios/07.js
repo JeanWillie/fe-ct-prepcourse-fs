@@ -1,11 +1,9 @@
-function esTipoDato(a) {
+function esTipoDato(valor) {
   // La función recibe un argumento llamado valor.
   // Retorna el tipo de dato de este valor.
   // Por ejemplo: "string", "number", "boolean", "object", etc.
   // Tu código:
-  return 1;
+  return typeof 'valor';
 }
-let tipo = esTipoDato(1);
-console.log(typeof tipo);
 
 module.exports = esTipoDato;
